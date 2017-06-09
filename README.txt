@@ -1,6 +1,9 @@
-This directory contains source code and coefficients for SD codes, as described 
-in the [Plank13].  The user manual is in CS-13-704.html -- the permanent home for
-this work is http://web.eecs.utk.edu/~plank/plank/papers/CS-13-704.html, and the 
-source code is in http://web.eecs.utk.edu/~plank/plank/papers/CS-13-704.tar.
+it implements the encoding and failure recovery of the permutation code based on the Jafar's paper on permutational code and our modified scheme. 
+ 
+ It returns the recovery time vs the number of participating nodes. The total
+ size of data is fixed while changinplease refer to this paper for more details https://arxiv.org/abs/1605.06927. 
+
+Here we have borrowed some GF functionality from the GF implementation in http://web.eecs.utk.edu/~plank/plank/papers/CS-13-704.tar. 
+
 
 
